@@ -1,0 +1,68 @@
+\hypertarget{classGerenciador}{}\section{Gerenciador Class Reference}
+\label{classGerenciador}\index{Gerenciador@{Gerenciador}}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classGerenciador_a4fd3c33fb6c255fe06dc4105f816c67b}\label{classGerenciador_a4fd3c33fb6c255fe06dc4105f816c67b}} 
+vector$<$ \hyperlink{classJogador}{Jogador} $>$ {\bfseries get\+Lista\+\_\+jogadores} ()
+\item 
+\mbox{\Hypertarget{classGerenciador_a3fec9b86d4da034d06d60bb06d862819}\label{classGerenciador_a3fec9b86d4da034d06d60bb06d862819}} 
+void \hyperlink{classGerenciador_a3fec9b86d4da034d06d60bb06d862819}{adicionar\+\_\+jogador} ()
+\begin{DoxyCompactList}\small\item\em Método para adicionar jogador a classe através de pushbacks\textquotesingle{}s nos vector\textquotesingle{}s do tipo \hyperlink{classJogador}{Jogador}. \end{DoxyCompactList}\item 
+void \hyperlink{classGerenciador_ae26e87727d35b71dd43db8be0dbc77d2}{exibir\+\_\+jogadores} (vector$<$ \hyperlink{classJogador}{Jogador} $>$ lista\+\_\+jogadores)
+\begin{DoxyCompactList}\small\item\em Método para exibir jogadores da partida. \end{DoxyCompactList}\item 
+int \hyperlink{classGerenciador_afb1df83365cd8c225af375087aaff983}{jogar\+\_\+dado} ()
+\begin{DoxyCompactList}\small\item\em Método para retornar a soma do numero de 2 dados jogados aleatoriamente. \end{DoxyCompactList}\item 
+int \hyperlink{classGerenciador_a25a8afd36fd5a56265d50ce47be5c59e}{iniciar\+\_\+rodada} ()
+\begin{DoxyCompactList}\small\item\em Método onde ocorrerá todo o gerenciamento de uma rodada do jogo. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{classGerenciador_ae26e87727d35b71dd43db8be0dbc77d2}\label{classGerenciador_ae26e87727d35b71dd43db8be0dbc77d2}} 
+\index{Gerenciador@{Gerenciador}!exibir\+\_\+jogadores@{exibir\+\_\+jogadores}}
+\index{exibir\+\_\+jogadores@{exibir\+\_\+jogadores}!Gerenciador@{Gerenciador}}
+\subsubsection{\texorpdfstring{exibir\+\_\+jogadores()}{exibir\_jogadores()}}
+{\footnotesize\ttfamily void Gerenciador\+::exibir\+\_\+jogadores (\begin{DoxyParamCaption}\item[{vector$<$ \hyperlink{classJogador}{Jogador} $>$}]{lista\+\_\+jogadores }\end{DoxyParamCaption})}
+
+
+
+Método para exibir jogadores da partida. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em lista\+\_\+jogadores} & Vector do tipo \hyperlink{classJogador}{Jogador} com a lista dos jogadores \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classGerenciador_a25a8afd36fd5a56265d50ce47be5c59e}\label{classGerenciador_a25a8afd36fd5a56265d50ce47be5c59e}} 
+\index{Gerenciador@{Gerenciador}!iniciar\+\_\+rodada@{iniciar\+\_\+rodada}}
+\index{iniciar\+\_\+rodada@{iniciar\+\_\+rodada}!Gerenciador@{Gerenciador}}
+\subsubsection{\texorpdfstring{iniciar\+\_\+rodada()}{iniciar\_rodada()}}
+{\footnotesize\ttfamily int Gerenciador\+::iniciar\+\_\+rodada (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Método onde ocorrerá todo o gerenciamento de uma rodada do jogo. 
+
+se o numero tirado no dado for menor que o valor dado n ele remove a pessoa que tirou isso -\/$>$ pois ela perdeu se não ele adicionará a pontuação
+
+neste for ele vai achar o maior numero para poder imprimir o jogador ganhador e sua posição
+
+voltando com as alterações de cada jogador para o original e setando a pontuação de cada um com 0\mbox{\Hypertarget{classGerenciador_afb1df83365cd8c225af375087aaff983}\label{classGerenciador_afb1df83365cd8c225af375087aaff983}} 
+\index{Gerenciador@{Gerenciador}!jogar\+\_\+dado@{jogar\+\_\+dado}}
+\index{jogar\+\_\+dado@{jogar\+\_\+dado}!Gerenciador@{Gerenciador}}
+\subsubsection{\texorpdfstring{jogar\+\_\+dado()}{jogar\_dado()}}
+{\footnotesize\ttfamily int Gerenciador\+::jogar\+\_\+dado (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Método para retornar a soma do numero de 2 dados jogados aleatoriamente. 
+
+\begin{DoxyReturn}{Returns}
+Soma do valor dos dois dados 
+\end{DoxyReturn}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+classes.\+h\item 
+\hyperlink{gerenciador_8cpp}{gerenciador.\+cpp}\end{DoxyCompactItemize}
