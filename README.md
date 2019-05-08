@@ -6,6 +6,6 @@ A dice game similar to 21
     $make
 ->And run typing:
 
-    ./programa2
+    $./programa2
 
 This code was made for my Programing Language I class in Instituto Metrópole Digital of Federal University of Rio Grande do Norte 
