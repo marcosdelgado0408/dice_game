@@ -8,4 +8,4 @@ A dice game similar to 21
 
     $./programa2
 
-This code was made for my Programing Language I class in Instituto Metrópole Digital of Federal University of Rio Grande do Norte 
+This code was made for my Programing Language I class in Instituto Metrópole Digital of Federal University of Rio Grande do Norte in Brazil, so this program is in portuguese
